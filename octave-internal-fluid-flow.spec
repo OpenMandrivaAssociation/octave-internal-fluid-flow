@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv3+
 Group:		Sciences/Mathematics
 Url:		https://github.com/aumpierre-unb/Internal-Fluid-Flow-for-GNU-Octave
-Source0:	https://github.com/aumpierre-unb/Internal-Fluid-Flow-for-GNU-Octave/archive/v%{version}/%{octpkg}-%{version}.tar.gz
+Source0:	https://github.com/aumpierre-unb/Internal-Fluid-Flow-for-GNU-Octave/archive/v%{version}/internal-fluid-flow-%{version}.tar.gz
 
 BuildRequires:	octave-devel >= 4.2.0
 
@@ -30,7 +30,7 @@ A toolbox for internal fluid flow for GNU Octave.
 #---------------------------------------------------------------------------
 
 %prep
-%autosetup -p1  -n Internal-Fluid-Flow-for-GNU-Octave-%{version}
+%autosetup -p1 -n Internal-Fluid-Flow-for-GNU-Octave-%{version}
 
 %build
 %set_build_flags
