@@ -2,8 +2,8 @@
 
 Summary:	A toolbox for internal fluid flow for GNU Octave
 Name:		octave-internal-fluid-flow
-Version:	0.3.2
-Release:	2
+Version:	1.0.0
+Release:	1
 License:	GPLv3+
 Group:		Sciences/Mathematics
 #Url:		https://packages.octave.org/internal-fluid-flow/
